@@ -2,6 +2,7 @@ body {
     display:flex;
     flex-direction: column;
     justify-items: space-between;
+    margin: 0px;
 }
 
 ul {
@@ -76,4 +77,99 @@ button.sign-up {
 
 .info-containers {
     display: flex;
+    justify-items: space-between;
+}
+
+.info-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.information {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0 150px 50px 150px;
+}
+
+.info-title {
+    padding: 25px;
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1F2937
+}
+
+.rounded-square {
+    height: 100px;
+    background-color:white;
+    width: 100px;
+    border-radius: 8px;
+    border: 3px solid #3882F6;
+    padding: 10px;
+
+  }
+
+  .text {
+      text-align: center;
+  }
+
+.testimonial {
+    background-color: #E5E7EB;
+    padding: 50px 250px 50px 250px;
+}
+
+.quote {
+    font-size: 36px;
+    color: #1F2937;
+    font-style: italic;
+    font-weight: lighter;
+}
+
+.who-quote {
+    text-align: right;
+    font-weight: bolder;
+}
+
+.action {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.modal {
+    background-color: #3882F6;
+    border-radius: 10px;
+    margin: 50px;
+    padding: 30px 120px 30px 120px;
+    display: flex;
+    align-items: center;
+}
+
+.modal-title {
+    font-weight: bold;
+    color: white;
+}
+
+.modal-text {
+    color: white;
+}
+
+.modal-text-only {
+    padding: 20px;
+}
+
+
+button.sign-up2 {
+    background-color: #3882F6;
+    color: white;
+    border: 1px solid white;
+    font-weight: 600;
+    height: 50%;
+}
+
+.footer {
+    text-align: center;
+    padding: 50px 0;
 }
